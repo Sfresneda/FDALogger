@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "915A0D1A-F950-4C36-8860-F83550940D0F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "FDALogger",
+          "name" : "FDALogger"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "FDALoggerTests",
+        "name" : "FDALoggerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
