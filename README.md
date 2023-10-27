@@ -1,4 +1,4 @@
-# Logger
+# FDALogger
 OSLogger wrapper for logging to console, written in Swift 5.8.
 
 ## Installation
