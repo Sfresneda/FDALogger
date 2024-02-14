@@ -11,7 +11,7 @@ import Foundation
 public final class FDALogger {
 
     /// Shared Instance
-    static var shared: FDALogger = FDALogger()
+    public static var shared: FDALogger = FDALogger()
 
     // MARK: Vars
 
@@ -19,13 +19,13 @@ public final class FDALogger {
     private var logger: Logger
 
     /// Logs already registered
-    private(set) var logs: [String] = []
+    public private(set) var logs: [String] = []
 
     // MARK: Lifecycle
 
     /// Init
     /// - Parameter logger: Logger instance, by default is `Logger()`
-    init(logger: Logger = Logger()) {
+    public init(logger: Logger = Logger()) {
         self.logger = logger
     }
 }
